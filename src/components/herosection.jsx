@@ -31,7 +31,7 @@ function HerosectionLeftPart() {
           Get Free Consultation
         </div>
       </div>
-      <div className='this-is-search-bar bg-white justify-center lg:w-[25rem] mt-10 w-[18rem] items-center align-middle text-slate-600 flex flex-row p-2 rounded-lg'>
+      <div className='this-is-search-bar bg-white justify-center lg:w-[25rem] mt-10 w-[20rem] items-center align-middle text-slate-600 flex flex-row p-2 rounded-lg'>
         {/* <input className='search-area'>What you want Learn today?</input> */}
         <input
           type='text'
