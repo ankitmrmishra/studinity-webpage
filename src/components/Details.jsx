@@ -6,7 +6,7 @@ function Details() {
   return (
     <div
       id='aboutus'
-      className=' lg:h-[779px] bg-gradient-to-r from-blue-700 to-violet-500 border  p-5  '
+      className=' lg:h-[600px] bg-gradient-to-r from-blue-700 to-violet-500 border  p-5  '
     >
       <div className='-mt-11'>
         <span className='heading_text pt-32 heading flex flex-row items-center text-center align-middle justify-center lg:text-5xl text-3xl text-white font-extrabold'>
@@ -26,7 +26,7 @@ function Details() {
             aspirations.
           </span>
         </div>
-        <div className='key_points lg:grid grid-cols-3 lg:p-28 text-white items-center p-5 mt-10'>
+        <div className='key_points lg:grid grid-cols-3 gap-8 lg:p-20 text-white items-center  p-5 mt-10 lg:mt-3'>
           <div className='point1 flex flex-col align-center text-center justify-between items-center mt-8'>
             <span className='text-8xl text-white'>
               <GiTeacher />

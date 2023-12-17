@@ -10,7 +10,7 @@ function testimonials() {
         <span className='text1 '>Testi</span>
         <span className='text1 text-teal-600'>monials</span>
       </div>
-      <div className='testimonials_sections flex lg:flex-row flex-col align-middle justify-center '>
+      <div className='testimonials_sections flex lg:flex-row flex-col align-middle justify-center items-center '>
         <TestimonialsCard />
         <TestimonialsCard />
         <TestimonialsCard />
