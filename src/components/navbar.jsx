@@ -32,7 +32,7 @@ function NavbarMiddle({ open, navmidItems }) {
     <div
       className={`${
         open ? "block" : "hidden"
-      } lg:h-[119px] lg:flex lg:relative lg:bg-white bg-blue-500 lg:text-black text-white tracking-wider absolute w-full  flex-row items-center justify-between align-middle lg:top-0 top-16`}
+      } lg:h-[119px] lg:flex lg:relative bg-white  text-black  tracking-wider absolute w-full  flex-row items-center justify-between align-middle lg:top-0 top-16`}
     >
       {navmidItems.map((item, index) => (
         <div
