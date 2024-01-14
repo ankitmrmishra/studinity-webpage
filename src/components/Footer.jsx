@@ -15,9 +15,9 @@ import { TiSocialLinkedin } from "react-icons/ti";
 function Footer() {
   return (
     <div className=' overflow-hidden bg-gradient-to-r from-blue-700 to-violet-500 border flex flex-col items-center justify-center align-middle p-4'>
-      <div className='upper_part flex flex-col lg:flex-row'>
-        <div className='details_section flex flex-col align-middle text-center justify-between items-center w-[30rem] p-14'>
-          <div className='  flex items-center justify-between align-middle '>
+      <div className='upper_part flex flex-col lg:flex-row '>
+        <div className='details_section flex flex-col align-top text-center justify-start items-center w-[30rem] p-14 '>
+          <div className='  flex items-center justify-center  '>
             <span className='logo text-4xl m-[1rem] font-extrabold bg-gradient-to-l from-teal-300 to-teal-200 bg-clip-text  text-transparent'>
               STUDINITY
             </span>
@@ -28,16 +28,16 @@ function Footer() {
             learners of all backgrounds and skill levels.
           </span>
         </div>
-        <div className='links_setion pl-14 lg:p-14'>
-          <div className='text-xl m-[1rem] font-bold bg-gradient-to-l from-teal-300 to-teal-200 bg-clip-text  text-transparent'>
-            <span>QUICK</span>
-            <span>LINKS</span>
+        <div className='etails_section  flex flex-col align-middle text-center justify-start items-center w-[30rem] p-14'>
+          <div className='text-4xl m-[1rem] font-bold bg-gradient-to-l from-teal-300 to-teal-200 bg-clip-text  text-transparent'>
+            <span>Quick</span>
+            <span className='pl-1'>Links</span>
           </div>
 
-          <div className='flex flex-col align-middle justify-center lg:items-center text-white/75 p-5 '>
+          <div className='flex flex-col align-middle justify-center lg:items-center text-white/75 '>
             <Link
               className='hover:cursor-pointer'
-              to='featuredCourses'
+              to='Courses'
               smooth={true}
               duration={500}
             >
@@ -53,7 +53,7 @@ function Footer() {
             </Link>
             <Link
               className='hover:cursor-pointer'
-              to='aboutus'
+              to='about'
               smooth={true}
               duration={500}
             >
@@ -61,22 +61,28 @@ function Footer() {
             </Link>
           </div>
         </div>
-        <div className='contact_us_section flex flex-col justify-between  pl-14 lg:p-14'>
-          <div className='text-xl m-[1rem] font-bold bg-gradient-to-l from-teal-300 to-teal-200 bg-clip-text  text-transparent'>
+        <div className='etails_section flex flex-col align-middle  justify-start items-center w-[30rem] p-14 '>
+          <div className='text-4xl m-[1rem] font-bold bg-gradient-to-l from-teal-300 to-teal-200 bg-clip-text  text-transparent'>
             Contact Us
           </div>
 
-          <div className='contact_us_parts  text-white/75 p-5 lg:p-16 gap-3'>
-            <div className='phone hover:cursor-pointer'>
-              <BsFillTelephoneFill />
+          <div className='contact_us_parts  text-white/75 p-5  gap-3'>
+            <div className='phone hover:cursor-pointer flex flex-col justify-start items-start'>
+              <div className='text-2xl'>
+                <BsFillTelephoneFill />
+              </div>
               +919988998856
             </div>
-            <div className='phone hover:cursor-pointer'>
-              <BiLogoGmail />
+            <div className='phone hover:cursor-pointer flex flex-col justify-start items-start'>
+              <div className='text-2xl'>
+                <BiLogoGmail />
+              </div>
               ankitmrmishra1118@gmail.com
             </div>
-            <div className='phone hover:cursor-pointer'>
-              <FaLocationDot />
+            <div className='phone hover:cursor-pointer flex flex-col justify-start items-start'>
+              <div className='text-2xl'>
+                <FaLocationDot />
+              </div>
               1234 Fictional Street, Citytown, Stateprovince, Countryland,
               12345.
             </div>
@@ -88,13 +94,25 @@ function Footer() {
         <div className="lg:w-[326px] h-[22px] text-white text-lg font-normal font-['Saira'] leading-7">
           Copyright 2023 | All Rights Reserved
         </div>
-        <div className='mt-5 socials flex justify-center items-center align-middle gap-6 font-extrabold text-2xl text-teal-400'>
-          <SlSocialBehance className='text-4xl border rounded-full p-2' />
-          <SlSocialFacebook className='text-4xl border rounded-full p-2' />
-          <SlSocialInstagram className='text-4xl border rounded-full p-2' />
-          <SlSocialReddit className='text-4xl border rounded-full p-2' />
-          <SlSocialTwitter className='text-4xl border rounded-full p-2' />
-          <TiSocialLinkedin className='text-4xl border rounded-full p-2' />
+        <div className='mt-5 socials flex  gap-6 font-extrabold text-2xl text-teal-200'>
+          <div className='border rounded-full p-4 hover:bg-black transition-all delay-75 cursor-pointer '>
+            <SlSocialBehance className='text-4xl  ' />
+          </div>
+          <div className='border rounded-full p-4 hover:bg-black transition-all delay-75 cursor-pointer '>
+            <SlSocialFacebook className='text-4xl   ' />
+          </div>
+          <div className='border rounded-full p-4 hover:bg-black transition-all delay-75 cursor-pointer '>
+            <SlSocialInstagram className='text-4xl   ' />
+          </div>
+          <div className='border rounded-full p-4 hover:bg-black transition-all delay-75 cursor-pointer '>
+            <SlSocialReddit className='text-4xl   ' />
+          </div>
+          <div className='border rounded-full p-4 hover:bg-black transition-all delay-75 cursor-pointer '>
+            <SlSocialTwitter className='text-4xl  ' />
+          </div>
+          <div className='border rounded-full p-4 hover:bg-black transition-all delay-75 cursor-pointer '>
+            <TiSocialLinkedin className='text-4xl ' />
+          </div>
         </div>
       </div>
     </div>

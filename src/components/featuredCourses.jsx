@@ -3,7 +3,7 @@ import CourseCard from "./courseCard";
 function featuredCourses() {
   return (
     <div
-      id='featuredCourses'
+      id='Courses'
       className=' text-black  bg-gradient-to-b from-blue-200 to-violet-300 '
     >
       <div className=' pt-32 heading flex flex-row items-center text-center align-middle justify-center text-5xl'>

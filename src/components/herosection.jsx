@@ -5,7 +5,7 @@ import { BsStarHalf } from "react-icons/bs";
 
 function herosection() {
   return (
-    <div className=' static overflow-hidden h-[630px] bg-gradient-to-l text-white from-violet-950 to-violet-800 lg:p-16 p-10 pt-20 flex flex-row'>
+    <div id="Home" className=' static overflow-hidden h-[630px] bg-gradient-to-l text-white from-violet-950 to-violet-800 lg:p-16 p-10 pt-20 flex flex-row'>
       <HerosectionLeftPart />
       <HerosectionRightPart />
       <Testimonial />
