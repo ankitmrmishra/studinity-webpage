@@ -72,7 +72,11 @@ function NavbarLeft() {
 }
 
 function NavbarRight() {
-   const user = useRecoilValue(loggedInUser);
+  const [token, setToken] = React.useState(localStorage.getItem("token") || "");
+  const [name, setName] = useState("");
+  
+  const user = useRecoilValue(loggedInUser);
+  
   return (
     <div className='  lg:h-[119px] lg:flex lg:p-16 flex-row gap-16 items-center justify-center align-middle  '>
       <div className='right-part1 flex flex-row justify-center items-center gap-3 text-2xl'>
